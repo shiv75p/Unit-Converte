@@ -1,0 +1,35 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+} 
+
+body{
+    font-family: sans-serif;
+    height: 100vh;  display: flex; 
+    align-items: center; justify-content: center; 
+    background: linear-gradient(#0f2027,#203a43,#2c5364);
+    padding:20px;
+}
+.container{
+    padding: 32px; 
+    border-radius: 20px; 
+    max-width: 400px; 
+    width: 100%; 
+    background: #fff; 
+    box-shadow: 10px 10px 20px 20px rgba(244, 189, 237, 0.367),-8px -8px 16px 16px  rgba(248, 3, 16, 0.287),-8px -8px 16px 16px  rgba(142, 249, 238, 0.237)inset;
+}
+.title{
+    text-align: center; 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+} 
+.input-container{
+    margin-top: 12px; 
+    display: flex;  flex-direction: column;
+} 
+.input-container input{
+    padding: 8px; 
+    border-radius: 4px; 
+    margin-top: 4px; 
+    border: 1px solid rgb(146, 168, 252); 
+    box-shadow: none; 
+    outline: 0;
+}
